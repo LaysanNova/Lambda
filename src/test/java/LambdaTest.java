@@ -78,6 +78,9 @@ public class LambdaTest {
 
             page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Add to Cart")).click();
 
+
+
+
             //6 Click on the ‘Cart’ icon.
             // 1.Verify the Cart side panel is open
             // 2.Verify the Checkout button is shown to the user
@@ -87,8 +90,6 @@ public class LambdaTest {
             // 1.Verify the user is redirected to the Checkout page.
             // 2.Verify product details are shown in the right side pane.
             // Since you didn’t log into the application on the right-hand side, you will also see the Registration/Login/Guest flow.
-
-
 
 
         } catch (Exception e) {
